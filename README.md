@@ -1,7 +1,7 @@
-# [JKIIT'25] Variational Autoencoder with Label Smoothing for Collaborative Filtering
+# [JKIIT'24] Variational Autoencoder with Label Smoothing for Collaborative Filtering
 
 ### Paper Link
-https://www.dbpia.co.kr/pdf/pdfView.do?nodeId=NODE12024885&googleIPSandBox=false&mark=0&minRead=5&ipRange=false&b2cLoginYN=false&icstClss=010000&isPDFSizeAllowed=true&accessgl=Y&language=ko_KR&hasTopBanner=true
+[VAE-LS](https://www.dbpia.co.kr/pdf/pdfView.do?nodeId=NODE12024885&googleIPSandBox=false&mark=0&minRead=5&ipRange=false&b2cLoginYN=false&icstClss=010000&isPDFSizeAllowed=true&accessgl=Y&language=ko_KR&hasTopBanner=true)
 
 ### VAE-LS Implementation
 This repository contains the implementation code for the VAE-LS as proposed in our paper.
