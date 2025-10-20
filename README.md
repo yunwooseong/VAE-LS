@@ -1,8 +1,7 @@
 # [KIIT'24] Variational Autoencoder with Label Smoothing for Collaborative Filtering
+[![View Paper](https://img.shields.io/badge/View%20Paper-PDF-E24D35)]([https://dl.acm.org/doi/10.1145/3705328.3748039](https://www.dbpia.co.kr/pdf/pdfView.do?nodeId=NODE12024885&googleIPSandBox=false&mark=0&minRead=5&ipRange=false&b2cLoginYN=false&icstClss=010000&isPDFSizeAllowed=true&accessgl=Y&language=ko_KR&hasTopBanner=true))
 
-## 📄 [Paper](https://www.dbpia.co.kr/pdf/pdfView.do?nodeId=NODE12024885&googleIPSandBox=false&mark=0&minRead=5&ipRange=false&b2cLoginYN=false&icstClss=010000&isPDFSizeAllowed=true&accessgl=Y&language=ko_KR&hasTopBanner=true) 
-
-## VAE-LS Implementation
+## 📄 Paper
 This repository contains the implementation code for the VAE-LS as proposed in our paper.
 
 ## Datasets
