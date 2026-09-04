@@ -2,7 +2,7 @@
 
 # Variational Autoencoder with Label Smoothing for Collaborative Filtering
 
-**[Woo-Seong Yun](https://github.com/yunwooseong)** &nbsp;·&nbsp; **Yeong-Hyeon Kim** &nbsp;·&nbsp; **Chan-Woo Jeong** &nbsp;·&nbsp; **Yeo-Jun Choi** &nbsp;·&nbsp; **Yoon-Sik Cho**
+**[Woo-Seong Yun](https://scholar.google.com/citations?user=ZRXyvtMAAAAJ)** &nbsp;·&nbsp; **Yeong-Hyeon Kim** &nbsp;·&nbsp; **Chan-Woo Jeong** &nbsp;·&nbsp; **Yeo-Jun Choi** &nbsp;·&nbsp; **Yoon-Sik Cho**
 
 <sub>Department of Artificial Intelligence, Chung-Ang University</sub>
 
