@@ -55,12 +55,12 @@ Bold marks the best result for each metric (Table 1 of the paper).
       <th colspan="3" align="center">Netflix</th>
     </tr>
     <tr>
-      <th align="center">NDCG@100</th>
-      <th align="center">Recall@50</th>
-      <th align="center">Recall@20</th>
-      <th align="center">NDCG@100</th>
-      <th align="center">Recall@50</th>
-      <th align="center">Recall@20</th>
+      <th align="center">N@100</th>
+      <th align="center">R@50</th>
+      <th align="center">R@20</th>
+      <th align="center">N@100</th>
+      <th align="center">R@50</th>
+      <th align="center">R@20</th>
     </tr>
   </thead>
   <tbody>
@@ -122,12 +122,12 @@ Sensitivity to the smoothing strength $\alpha$ (Table 2 of the paper):
       <th colspan="3" align="center">Netflix</th>
     </tr>
     <tr>
-      <th align="center">NDCG@100</th>
-      <th align="center">Recall@50</th>
-      <th align="center">Recall@20</th>
-      <th align="center">NDCG@100</th>
-      <th align="center">Recall@50</th>
-      <th align="center">Recall@20</th>
+      <th align="center">N@100</th>
+      <th align="center">R@50</th>
+      <th align="center">R@20</th>
+      <th align="center">N@100</th>
+      <th align="center">R@50</th>
+      <th align="center">R@20</th>
     </tr>
   </thead>
   <tbody>
