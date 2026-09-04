@@ -47,22 +47,128 @@ The model is implemented as a single notebook, `MultVAE-LS.ipynb`. Open it and r
 
 Bold marks the best result for each metric (Table 1 of the paper).
 
-| Model | ML20M<br>NDCG@100 | ML20M<br>Recall@50 | ML20M<br>Recall@20 | Netflix<br>NDCG@100 | Netflix<br>Recall@50 | Netflix<br>Recall@20 |
-| --- | ---: | ---: | ---: | ---: | ---: | ---: |
-| WMF | 0.386 | 0.498 | 0.360 | 0.351 | 0.404 | 0.316 |
-| SLIM | 0.401 | 0.495 | 0.370 | 0.379 | 0.428 | 0.347 |
-| CDAE | 0.418 | 0.523 | 0.391 | 0.376 | 0.428 | 0.343 |
-| Mult-VAE | 0.426 | **0.536** | 0.395 | 0.386 | 0.440 | 0.348 |
-| **VAE-LS** | **0.430** | 0.535 | **0.399** | **0.388** | **0.443** | **0.355** |
+<table>
+  <thead>
+    <tr>
+      <th rowspan="2" align="left">Model</th>
+      <th colspan="3" align="center">ML20M</th>
+      <th colspan="3" align="center">Netflix</th>
+    </tr>
+    <tr>
+      <th align="center">NDCG@100</th>
+      <th align="center">Recall@50</th>
+      <th align="center">Recall@20</th>
+      <th align="center">NDCG@100</th>
+      <th align="center">Recall@50</th>
+      <th align="center">Recall@20</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="left">WMF</td>
+      <td align="center">0.386</td>
+      <td align="center">0.498</td>
+      <td align="center">0.360</td>
+      <td align="center">0.351</td>
+      <td align="center">0.404</td>
+      <td align="center">0.316</td>
+    </tr>
+    <tr>
+      <td align="left">SLIM</td>
+      <td align="center">0.401</td>
+      <td align="center">0.495</td>
+      <td align="center">0.370</td>
+      <td align="center">0.379</td>
+      <td align="center">0.428</td>
+      <td align="center">0.347</td>
+    </tr>
+    <tr>
+      <td align="left">CDAE</td>
+      <td align="center">0.418</td>
+      <td align="center">0.523</td>
+      <td align="center">0.391</td>
+      <td align="center">0.376</td>
+      <td align="center">0.428</td>
+      <td align="center">0.343</td>
+    </tr>
+    <tr>
+      <td align="left">Mult-VAE</td>
+      <td align="center">0.426</td>
+      <td align="center"><b>0.536</b></td>
+      <td align="center">0.395</td>
+      <td align="center">0.386</td>
+      <td align="center">0.440</td>
+      <td align="center">0.348</td>
+    </tr>
+    <tr>
+      <td align="left"><b>VAE-LS</b></td>
+      <td align="center"><b>0.430</b></td>
+      <td align="center">0.535</td>
+      <td align="center"><b>0.399</b></td>
+      <td align="center"><b>0.388</b></td>
+      <td align="center"><b>0.443</b></td>
+      <td align="center"><b>0.355</b></td>
+    </tr>
+  </tbody>
+</table>
 
 Sensitivity to the smoothing strength $\alpha$ (Table 2 of the paper):
 
-| $\alpha$ | ML20M<br>NDCG@100 | ML20M<br>Recall@50 | ML20M<br>Recall@20 | Netflix<br>NDCG@100 | Netflix<br>Recall@50 | Netflix<br>Recall@20 |
-| --- | ---: | ---: | ---: | ---: | ---: | ---: |
-| 0.01 | 0.429 | 0.533 | 0.397 | **0.388** | **0.444** | 0.354 |
-| 0.05 | **0.430** | **0.535** | **0.399** | **0.388** | 0.443 | **0.355** |
-| 0.1 | 0.429 | 0.530 | **0.399** | **0.388** | 0.441 | **0.355** |
-| 0.2 | 0.426 | 0.528 | 0.397 | 0.386 | 0.438 | 0.354 |
+<table>
+  <thead>
+    <tr>
+      <th rowspan="2" align="left">α</th>
+      <th colspan="3" align="center">ML20M</th>
+      <th colspan="3" align="center">Netflix</th>
+    </tr>
+    <tr>
+      <th align="center">NDCG@100</th>
+      <th align="center">Recall@50</th>
+      <th align="center">Recall@20</th>
+      <th align="center">NDCG@100</th>
+      <th align="center">Recall@50</th>
+      <th align="center">Recall@20</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="left">0.01</td>
+      <td align="center">0.429</td>
+      <td align="center">0.533</td>
+      <td align="center">0.397</td>
+      <td align="center"><b>0.388</b></td>
+      <td align="center"><b>0.444</b></td>
+      <td align="center">0.354</td>
+    </tr>
+    <tr>
+      <td align="left">0.05</td>
+      <td align="center"><b>0.430</b></td>
+      <td align="center"><b>0.535</b></td>
+      <td align="center"><b>0.399</b></td>
+      <td align="center"><b>0.388</b></td>
+      <td align="center">0.443</td>
+      <td align="center"><b>0.355</b></td>
+    </tr>
+    <tr>
+      <td align="left">0.1</td>
+      <td align="center">0.429</td>
+      <td align="center">0.530</td>
+      <td align="center"><b>0.399</b></td>
+      <td align="center"><b>0.388</b></td>
+      <td align="center">0.441</td>
+      <td align="center"><b>0.355</b></td>
+    </tr>
+    <tr>
+      <td align="left">0.2</td>
+      <td align="center">0.426</td>
+      <td align="center">0.528</td>
+      <td align="center">0.397</td>
+      <td align="center">0.386</td>
+      <td align="center">0.438</td>
+      <td align="center">0.354</td>
+    </tr>
+  </tbody>
+</table>
 
 ## Citation
 
